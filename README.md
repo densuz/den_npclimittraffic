@@ -30,3 +30,9 @@ end) ```
 
 **Optimasi untuk Kendaraan yang Diparkir:**
 SetParkedVehicleDensityMultiplierThisFrame(0.1)
+
+## Support
+
+If you want to support this project, you can make a donation via PayPal:
+
+[![PayPal Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/densuz?country.x=ID&locale.x=id_ID)

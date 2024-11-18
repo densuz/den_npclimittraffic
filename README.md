@@ -16,23 +16,26 @@ Script ini digunakan untuk mengurangi atau meningkatkan lalu lintas kendaraan da
 
 Gunakan perintah **/setdensity** untuk mengubah kepadatan NPC tanpa harus restart script.
 
-baris skrip untuk debugging :
-``` local function logDensityChanges()
+**Optimasi untuk Kendaraan yang Diparkir:**
+SetParkedVehicleDensityMultiplierThisFrame(0.1)
+
+**debugging:**
+local function logDensityChanges()
     print(("[DEBUG] Pedestrian Density: %s | Traffic Density: %s"):format(config.pedFrequency, config.trafficFrequency))
 end
-
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(60000) -- Log setiap menit
         logDensityChanges()
     end
-end) ```
+end) 
 
-**Optimasi untuk Kendaraan yang Diparkir:**
-SetParkedVehicleDensityMultiplierThisFrame(0.1)
 
 ## Support
 
 If you want to support this project, you can make a donation via PayPal:
 
 [![PayPal Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/densuz?country.x=ID&locale.x=id_ID)
+
+
+
